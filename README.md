@@ -1,2 +1,4 @@
 # JavaScript-Simple-projects
-In this repo, i will create a simple HTML, CSS &amp; JavaScript project - 
+Welcome, Here i will create a simple HTML, CSS & JavaScript with the help of video, docs, & google search; JavaScript project - 
+
+1 - Weather APP Project
