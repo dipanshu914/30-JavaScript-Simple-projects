@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.darkmode{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--primary-color);
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+.logo-img{
+    width: 130px;
+    cursor: pointer;
+    /* color: #fff; */
+    color: #ff4321;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+    font-size: 19px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover{
+    color: #ff4321;
+}
+
+.info{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.info h1{
+    font-size: 70px;
+    color: var(--secondary-color);
+    padding-bottom: 30px;
+}
+
+.info h1 span{
+    color: #ff4321;
+}
+
+.info p{
+    color: var(--secondary-color);
+    line-height: 22px;
+    font-size: 22px;
+}
+
+.info a{
+    padding: 10px 20px;
+    font-size: 22px;
+    background: var(--secondary-color);
+    text-decoration: none;
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.info a:hover{
+    color: #ec644c;
+}
+
+.img-box{
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+
+.img-box:hover .front-img{
+    left: 54%;
+}
+
+.social-links{
+   margin-left: 8%;
+   margin-top: 100px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right: 22px;
+}
+
+.social-links a:hover{
+    color: #ff4321;
+}
+
+/* from here we are creating dard mode */
+
+#moon-icon{
+    position: relative;
+    left: 80px;
+    width: 35px;
+    cursor: pointer;
+}
