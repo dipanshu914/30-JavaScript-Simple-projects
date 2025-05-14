@@ -12,37 +12,36 @@
 
     <body>
 
-        <div class="table">
-
+        <div class="card">
             <div class="search">
-                <input type="text" placeholder="Enter the city name" class="search-Term">
-                <button type="submit" class="search-button">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </button>
-
+                <input type="text" placeholder="Enter the city name" class="search-Term" spellcheck="false">
+                <button><img src="images/search.png"></button>
             </div>
+
             <div class="weather">
                 <img src="images/rain.png " alt="rain" class="weather-icon">
                 <h1 class="temp">20°C</h1>
-                <h2 class="cityname">Delhi</h2>
+                <h2 class="city">Delhi</h2>
                 <div class="details">
-                    <div class="col-1">
-                        <img src="images/humidity.png" alt="humidity" class="humidity">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="humidity">
                         <div>
-                            <p class="humidity-percent">50%</p>
-                            <p id="humidity-name">Humidity</p>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
                         </div>
                     </div>
-                    <div class="col-2">
-                        <img src="images/wind.png" alt="wind" class="wind">
+                    <div class="col">
+                        <img src="images/wind.png" alt="wind">
                         <div>
-                            <p class="wind-speed">15 km/h</p>
-                            <p id="wind-name">wind</p>
+                            <p class="wind">15 km/h</p>
+                            <p>wind</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <script src="config.js"></script>
+        <script src="index.js"></script>
 
     </body>
 
