@@ -1,5 +1,4 @@
-const scriptURL =
-	"https://script.google.com/macros/s/AKfycbxkrREbAe223NgWoY32wDmJYcw0GwqI2fjrMWyI29Q3R78B8Odhul8eWEFDIatpSXvC/exec";
+const scriptURL = SCRIPT_URL;
 
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("span-msg");
