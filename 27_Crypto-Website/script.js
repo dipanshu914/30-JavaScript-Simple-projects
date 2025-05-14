@@ -3,10 +3,8 @@ let Ethereum = document.getElementById("ethereum");
 let DogeCoin = document.getElementById("dogecoin");
 
 async function getData() {
-	const url =
-		" https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,dogecoin&vs_currencies=usd";
+	const url = CRYPTO_API;
 
-	// "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,ETH&tsyms=USD,DOGE&tsyms=USD";
 	try {
 		const response = await fetch(url);
 		if (!response.ok) {
